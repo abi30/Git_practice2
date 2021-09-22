@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharp_practice.math;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,8 +20,8 @@ namespace CSharp_practice
 
             p1.Introduce();
 
-
-
+            int ans = Calculator.Add(3,4);
+            Console.WriteLine($"you have got in math {ans}");
 
 
             Console.ReadKey();
