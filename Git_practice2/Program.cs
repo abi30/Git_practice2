@@ -11,7 +11,26 @@ namespace Git_practice2
         static void Main(string[] args)
         {
 
-            Console.WriteLine("for loop practice");
+            Console.WriteLine("practice with while loop");
+
+            int number = 1;
+
+            while(number<30)
+            {
+                number++;
+                if (number%2==0)
+                {
+                    continue;
+                  
+                    //break;
+                }
+                Console.WriteLine($"hello bangladesh {number}");
+                
+            }
+
+
+
+            Console.ReadKey();
         }
     }
 }
