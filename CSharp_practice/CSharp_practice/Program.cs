@@ -11,8 +11,35 @@ namespace CSharp_practice
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Rakib");
-            Console.ReadLine();
+
+            Person p1 = new Person();
+
+            p1.firstName = "Abdulla";
+            p1.lastName = "Rakib";
+
+            p1.Introduce();
+
+
+
+
+
+            Console.ReadKey();
         }
+    }
+
+
+    public class Person
+    {
+        public string firstName;
+        public string lastName;
+
+         public void Introduce()
+        {
+            Console.WriteLine($"My name is {firstName} {lastName}! ");
+        }
+
+
+
+
     }
 }
