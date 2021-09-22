@@ -11,7 +11,7 @@ namespace Git_practice2
         static void Main(string[] args)
         {
 
-            Console.WriteLine("hello GitRepo___!");
+            Console.WriteLine("for loop practice");
         }
     }
 }
